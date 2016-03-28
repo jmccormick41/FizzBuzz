@@ -1,0 +1,16 @@
+
+
+body {
+	text-align: center;
+	background-color: tan;
+	font-family: Garmond;
+}
+
+header {
+	font-size: 25px;
+	margin: 10px;
+}
+
+.content {
+	margin: 10px;
+}
