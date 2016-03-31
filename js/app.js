@@ -1,14 +1,5 @@
 
-
-var i = prompt('Please enter a number'); 
-
-function checkInput() {
-    if (isNaN(i)) {
-        alert('You must enter a number!');
-        return false;
-    }
-}
-checkInput
+ 
 
 
 var output =100;
@@ -19,10 +10,10 @@ for (i=1; i<= 100; i++){
         
         if (i % 5 === 0){
 
-            console.log("FizzBuzz");
+           document.write('FizzBuzz <br />');
         } else {
 
-            console.log('Fizz');
+            document.write('Fizz <br />');
 
         }
 
@@ -30,10 +21,11 @@ for (i=1; i<= 100; i++){
 
     else if (i % 5 === 0){
 
-        console.log('Buzz');
+        document.write('Buzz <br />');
     }
 
-    else {console.log(i);
+    else {
+        document.write(i + "<br />");
 
     }
 }
